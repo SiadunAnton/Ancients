@@ -1,0 +1,56 @@
+{
+    "name": "xgrdgd",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "2747da81-da0a-4621-840b-3f26dd5a2cd0",
+            "actions": [
+                {
+                    "name": "CharacterMovement",
+                    "type": "Value",
+                    "id": "ed777b4a-ec25-4e2e-9742-54a6685361fe",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d5c414a8-80b3-4d21-a9ff-4313152fcea3",
+                    "path": "<AndroidJoystick>/stick/y",
+                    "interactions": "Hold",
+                    "processors": "Normalize(max=1)",
+                    "groups": "",
+                    "action": "CharacterMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e2fe81e2-cfb9-43d5-8746-e13472ae61d5",
+                    "path": "<AndroidJoystick>/stick/x",
+                    "interactions": "Hold",
+                    "processors": "Normalize(max=1)",
+                    "groups": "",
+                    "action": "CharacterMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<AndroidJoystick>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
